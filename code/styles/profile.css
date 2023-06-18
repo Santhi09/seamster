@@ -1,0 +1,73 @@
+body{
+    color: #0a0a0a;
+}
+header {
+    position: absolute;
+    top: 2vh;
+    width: 100%;
+    background-color: #0a0a0a;
+  }
+  
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .brand-header {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: auto;
+    color: white;
+  }
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.mydiv1{
+    background-color: white;
+}
+h1{
+    color: black;
+}
+.button-btn {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    margin-top: 25px;
+    border-radius: 20px;
+    margin-bottom: auto;
+}
+.forgot{
+    text-align: right;
+}
+.login-btn {
+    width: 90%;
+    font-size: 20px;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(179, 175, 175);
+    border-color: #0a0a0a;
+    border-width: 100px;
+    margin-top: 25px;
+    margin-bottom: auto;
+    border-radius: 5px;
+    border: #0a0a0a;
+}
+.google-btn {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #0a0a0a;
+    background-color:rgb(133, 130, 130);
+    border-color: #b90505;
+    margin-top: 25px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    border-style: double;
+    border: #0a0a0a;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/product.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <!-- header of the page-->
+  
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html"> <img src="./images/backbutn.png" alt="back" width="30" height="30"></a>&nbsp;
+   
+      <img src="./images/logo2.png" alt="logo" width="50px" height="50px">
+      <span><a class="title" href="index.html">Designer</a></span>
+      <ul class="menu">
+        <li><a href="index.html#crafts-gallery">collections</a> </li>
+        <li><a href="catalogue.html">Embroidery</a> </li>
+        <li><a href="">Contact</a> </li>
+      </ul>
+      <div class="icons">
+        <div class="icon-btn menu-btn">
+          <a href="">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="icon-btn like-btn">
+          <a href="">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="icon-btn cart-btn">
+          <a href="">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main container -->
+
+  <main class="main-container">
+    <div class="selected-product">
+      <div class="product-img">
+        <div class="upper-elements">
+          <div class="pagination">
+            <div class="ball ball1"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+          </div>
+          <div class="discount">
+            -50%
+          </div>
+        </div>
+        <div class="lower-elements">
+          <div class="arrows">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+          <span>h 80cm x w 80cm</span>
+        </div>
+        <div class="main-img-frame">
+          <img src="./images/stone work.jpeg" alt="flower embroidery">
+        </div>
+      </div>
+      <div class="product-info">
+        <div class="product-title line">
+          <h1>flower embroidery</h1>
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+        </div>
+        <div class="size line">Size:</div>
+        <div class="size-options line">
+          <div class="option-size option-size1">S</div>
+          <div class="option-size">M</div>
+          <div class="option-size">L</div>
+          <div class="option-size">XXL</div>
+        </div>
+        <div class="other-options line">
+          <div class="color-picker">
+            <span>Color:</span>
+            <div class="balls">
+              <div class="color-ball color-ball1"></div>
+              <div class="color-ball color-ball2"></div>
+              <div class="color-ball color-ball3"></div>
+              <div class="color-ball color-ball4"></div>
+            </div>
+          </div>
+          <div class="delivery">
+            <span>Delivery:</span>
+            <div class="delivery-options">
+              <div class="options-line">
+                <div class="checkmark1 checkmark"></div>
+                <div class="delivery-option">By courier</div>
+                <div class="checkmark2 checkmark"></div>
+                <div class="delivery-option">Pick up</div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="total line">
+          <span class="old-price">Rs.500</span>
+          <span class="new-price">Rs.300</span>
+          <div class="buy-btn">Buy</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- related products section -->
+
+    <div class="related-products">
+      <nav class="related-products-bar">
+        <h2 class="title">Related products</h2>
+        <div class="related-arrows">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+          &nbsp;
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+      </nav>
+      <div class="related-box">
+        <div class="related1 related">
+          <a href=""><i class="fa fa-heart-o like" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/machine embordiery.jpeg" alt="simple embroidery">
+            </a>
+          </div>
+          <span>simply embrodiery design</span>
+          <form class="size1">
+            <input type="radio" id="q1" name="quantity1" checked><label for="q1">S</label>
+            <input type="radio" id="q2" name="quantity1"><label for="q2">M</label>
+            <input type="radio" id="q3" name="quantity1"><label for="q3">L</label>
+          </form>
+          <span class="price-span">Rs.450 <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="related2 related">
+          <a href=""><i class="fa fa-heart-o like" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/machine 2.jpeg" alt="stone work blouse">
+            </a>
+          </div>
+          <span>stonework blouse</span>
+          <form class="size1">
+            <input type="radio" id="q4" name="quantity2" checked><label for="q4">S</label>
+            <input type="radio" id="q5" name="quantity2"><label for="q5">M</label>
+            <input type="radio" id="q6" name="quantity2"><label for="q6">L</label>
+          </form>     
+          <span class="price-span">Rs.600<a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="related3 related">
+          <a href=""><i class="fa fa-heart-o like" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/machine work2.jpeg" alt="simple flower design">
+            </a>
+          </div>
+          <span>simple Flower design </span>
+          <form class="size1">
+            <input type="radio" id="q7" name="quantity" checked><label for="q7">S</label>
+            <input type="radio" id="q8" name="quantity"><label for="q8">M</label>
+            <input type="radio" id="q9" name="quantity"><label for="q9">L</label>
+          </form>
+          <span class="price-span">Rs. 400<a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
